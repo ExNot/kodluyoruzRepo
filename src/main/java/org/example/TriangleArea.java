@@ -13,6 +13,6 @@ public class TriangleArea {
         int e3 = scan.nextInt();
         double u = (e1+e2+e3)/2.0f;
         double area = Math.sqrt(u*(u-e1)*(u-e2)*(u-e3));
-        System.out.println("The area of trienglee is:" + area);
+        System.out.println("The area of triengle is:" + area);
     }
 }
