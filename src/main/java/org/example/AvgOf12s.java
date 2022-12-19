@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class TT {
+public class AvgOf12s {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter number!");
