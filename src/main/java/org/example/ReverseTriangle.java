@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ReverseTriangle {
           public static void main(String[] args) {
               Scanner scan = new Scanner(System.in);
+              System.out.println("Please enter height");
               int height = scan.nextInt();
               int step = height;
               String out = "";
