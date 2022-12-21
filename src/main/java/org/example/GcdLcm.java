@@ -10,14 +10,15 @@ public class GcdLcm {
         System.out.println("Please enter seccond num!");
         int n2 = scan.nextInt();
         int n11 = n1, n22 = n2;
-        int k;
-        for (k = n1; k>=1; k--){
-
-            if (n1 %k ==0 && n2 %k == 0) {
-                System.out.println("Gcd is: " + k);
+        int gcd =n1;
+        while (n1 != 0){
+            if (n1%gcd == 0 && n2 % gcd == 0){
+                System.out.println("Gcd is: " + gcd);
                 break;
             }
+            gcd--;
         }
-        System.out.println("Lcm is: " + n11*n22/k );
+        int lcm = n11*n22/gcd;
+        System.out.println("Lcm is: " + lcm);
     }
 }
