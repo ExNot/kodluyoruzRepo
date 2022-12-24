@@ -21,4 +21,5 @@ public class PowerWithRecrusive {
         int result = power(base,pow,1);
         System.out.println("Power of numbers is: " + result);
     }
+
 }
