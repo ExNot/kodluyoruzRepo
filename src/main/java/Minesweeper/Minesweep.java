@@ -48,7 +48,7 @@ public class Minesweep {
         }
         return map;
     }
-    
+
         void run(){
         Scanner scan = new Scanner(System.in);
         String[][] blank = new String[this.rowRange][this.columRange];
