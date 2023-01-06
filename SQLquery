@@ -29,3 +29,17 @@ HW 2
 --Third--
 --SELECT * FROM film
 --WHERE rental_rate IN(0.99, 2.99, 4.99) AND replacement_cost IN(12.99, 15.99, 28.99);
+
+HW 3
+
+--First--
+--SELECT country FROM country WHERE country LIKE 'A%a';
+
+--Second--
+--SELECT country FROM country WHERE country LIKE '_____%n';
+
+--Third--
+--SELECT title FROM film WHERE title ILIKE '%t%t%t%t%';
+
+--4th--
+--SELECT * FROM film WHERE title like 'C%' and length >90 and rental_rate =2.99
