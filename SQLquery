@@ -65,3 +65,24 @@ HW4
 --WHERE city ILIKE '%r';
 ---------------------------------------------------------------------------------------------------------------------
 
+HW5
+
+--1st--
+--SELECT * FROM film
+--WHERE title LIKE '%n'
+--ORDER BY length DESC
+--LIMIT 5;
+
+--2nd--
+--SELECT * FROM film
+--WHERE title LIKE '%n'
+--ORDER BY length
+--OFFSET 5
+--LIMIT 5;
+
+--3rd--
+--SELECT * FROM customer
+--WHERE store_id =1
+--ORDER BY last_name DESC 
+--LIMIT 4;
+
