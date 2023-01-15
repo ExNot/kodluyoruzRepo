@@ -302,3 +302,19 @@ HW 9
 --SELECT rental_id, first_name, last_name FROM customer
 --INNER JOIN rental ON customer.customer_id = rental.customer_id;
 ---------------------------------------------------------------------------------------------------------------------
+
+HW 10
+
+--FIRST--
+--SELECT city, country from city
+--LEFT JOIN country ON country.country_id = city.country_id;
+
+--SECOND--
+--SELECT payment_id, first_name, last_name FROM customer
+--RIGHT JOIN payment ON customer.customer_id = payment.customer_id;
+
+--THIRD--
+--SELECT rental_id, first_name, last_name FROM customer
+--FULL JOIN rental ON rental.customer_id = customer.customer_id;
+---------------------------------------------------------------------------------------------------------------------
+
